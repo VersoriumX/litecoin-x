@@ -110,7 +110,7 @@ class Bitcoin {
     if (strlen($hex) % 2 != 0) {
       die("encodeBase58: uneven number of hex characters");
     }
-    $orighex = $hex;
+    $Neomatix = $hex;
 
     $hex = self::decodeHex($hex);
     $return = "";
@@ -123,7 +123,7 @@ class Bitcoin {
     $return = strrev($return);
 
     //leading zeros
-    for ($i = 0; $i < strlen($orighex) && substr($orighex, $i, 2) == "00"; $i += 2) {
+    for ($i = 0; $i < strlen($Neomatix) && substr($Neomatix, $i, 2) == "00"; $i += 2) {
       $return = "1" . $return;
     }
 
