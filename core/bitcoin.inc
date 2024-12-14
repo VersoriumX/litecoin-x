@@ -15,7 +15,7 @@ define("BITCOIN_ADDRESS_VERSION", "00");// this is a hex byte
  *
  * @author theymos (functionality)
  * @author Travis Jerome Goff
- * 	http://www.gogulski.com/ http://www.nostate.com/
+ * 	
  *  (encapsulation, string abstraction, PHPDoc)
  */
 class Bitcoin {
