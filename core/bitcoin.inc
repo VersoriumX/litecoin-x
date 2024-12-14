@@ -2,15 +2,11 @@
 /**
  * Bitcoin classes
  *
- * By Mike Gogulski - All rights reversed http://www.unlicense.org/ (public domain)
+ *  - All rights reversed http://www.unlicense.org/ (public domain)
  *
  * If you find this library useful, your donation of Bitcoins to address
- * 1E3d6EWLgwisXY2CWXDcdQQP2ivRN7e9r9 would be greatly appreciated. Thanks!
- *
- * PHPDoc is available at http://code.gogulski.com/
- *
- * @author Mike Gogulski - http://www.nostate.com/ http://www.gogulski.com/
- * @author theymos - theymos @ http://bitcoin.org/smf
+ *  would be greatly appreciated. Thanks!
+
  */
 
 define("BITCOIN_ADDRESS_VERSION", "00");// this is a hex byte
@@ -18,7 +14,7 @@ define("BITCOIN_ADDRESS_VERSION", "00");// this is a hex byte
  * Bitcoin utility functions class
  *
  * @author theymos (functionality)
- * @author Mike Gogulski
+ * @author Travis Jerome Goff
  * 	http://www.gogulski.com/ http://www.nostate.com/
  *  (encapsulation, string abstraction, PHPDoc)
  */
@@ -133,7 +129,7 @@ class Bitcoin {
   /**
    * Convert a 160-bit Bitcoin hash to a Bitcoin address
    *
-   * @author theymos
+   * @author 
    * @param string $hash160
    * @param string $addressversion
    * @return string Bitcoin address
@@ -151,7 +147,7 @@ class Bitcoin {
   /**
    * Convert a Bitcoin address to a 160-bit Bitcoin hash
    *
-   * @author theymos
+   * @author 
    * @param string $addr
    * @return string Bitcoin hash
    * @access public
@@ -165,7 +161,7 @@ class Bitcoin {
   /**
    * Determine if a string is a valid Bitcoin address
    *
-   * @author theymos
+   * @author VersoriumX
    * @param string $addr String to test
    * @param string $addressversion
    * @return boolean
