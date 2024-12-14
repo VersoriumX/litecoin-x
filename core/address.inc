@@ -3,7 +3,7 @@
  *
  * Core of address management for instant litecoin wallet
  *
- * @author Someguy123 AKA Derpz0r
+ * @author Travis Jerome Goff
  * @copyright 2011
  *
  */
